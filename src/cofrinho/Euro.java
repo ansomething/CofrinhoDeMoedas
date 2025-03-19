@@ -2,11 +2,12 @@ package cofrinho;
 
 public class Euro extends Moeda {
 	// || CONSTRUTOR
-	public Euro(double valor) throws Exception {
+	public Euro(double valor) {
 		super(valor);
 	}
 
 	// || METODOS
+
 	@Override
 	// CONVERTER EURO PARA REAL
 	public double converter() {
@@ -30,6 +31,6 @@ public class Euro extends Moeda {
 			return false;
 		return true;
 	}
-	
-	
+
+
 }

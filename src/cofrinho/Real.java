@@ -2,11 +2,12 @@ package cofrinho;
 
 public class Real extends Moeda {
 	// || CONSTRUTOR
-	public Real(double valor) throws Exception {
+	public Real(double valor) {
 		super(valor);
 	}
 
 	// || METODOS
+
 	@Override
 	// CONVERTER REAL PARA REAL
 	public double converter() {

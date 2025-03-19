@@ -5,11 +5,11 @@ public abstract class Moeda {
 	double valor;
 
 	// || CONSTRUTOR
-	public Moeda(double valor) throws Exception {
+	public Moeda(double valor) {
 		super();
-//		if (valor <= 0) {
-//			throw new Exception("\u001b[1mValor inválido. Digite novamente.\u001b[m");
-//		};
+		if (valor <= 0) {
+			throw new RuntimeException("\u001b[1mValor inválido.\u001b[m\n");
+		}
 		this.valor = valor;
 	}
 

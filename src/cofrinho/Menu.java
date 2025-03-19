@@ -3,17 +3,17 @@ package cofrinho;
 public class Menu {
 
 	// || TODAS AS MENSAGENS RELACIONADAS AO MENU
-	
+
 	public void header() {
-		System.out.println("-------------------------------");
-		System.out.println("\u001b[1m   BEM VINDO AO SEU COFRINHO\u001b[m");
-		System.out.println("-------------------------------");
-		System.out.println("          ︵ヘ︵৲フ               ");
-		System.out.println("        ε( ( ･∞･)  $$$          ");
-		System.out.println("         しーしーJ                ");
-		System.out.println("-------------------------------");
+		System.out.println("---------------------------------------");
+		System.out.println("\u001b[1m       BEM VINDO AO SEU COFRINHO\u001b[m");
+		System.out.println("---------------------------------------");
+		System.out.println("               ︵ヘ︵৲フ               ");
+		System.out.println("             ε( ( ･∞･)  $$$          ");
+		System.out.println("              しーしーJ                ");
+		System.out.println("---------------------------------------");
 	}
-	
+
 	public void menu() {
 		System.out.println("\u001b[1mO que gostaria de fazer?\u001b[m");
 		System.out.println("[1] Adicionar moedas");
@@ -31,15 +31,21 @@ public class Menu {
 	}
 
 	public void caseAddReal() {
+		linha();
 		System.out.println("\u001b[1mQuantos Reais gostaria de adicionar?\u001b[m");
+		linha();
 	}
 
 	public void caseAddEuro() {
+		linha();
 		System.out.println("\u001b[1mQuantos Euros gostaria de adicionar?\u001b[m");
+		linha();
 	}
 
 	public void caseAddDolar() {
+		linha();
 		System.out.println("\u001b[1mQuantos Dólares gostaria de adicionar?\u001b[m");
+		linha();
 	}
 
 	public void case2() {
@@ -48,32 +54,36 @@ public class Menu {
 		System.out.println("[3] Remover em Dólar");
 		System.out.println("[4] Voltar para o menu");
 	}
-	
+
 	public void caseDelReal() {
+		linha();
 		System.out.println("\u001b[1mQuantos Reais gostaria de remover?\u001b[m");
+		linha();
 	}
-	
+
 	public void caseDelEuro() {
+		linha();
 		System.out.println("\u001b[1mQuantos Euros gostaria de remover?\u001b[m");
+		linha();
 	}
-	
+
 	public void caseDelDolar() {
+		linha();
 		System.out.println("\u001b[1mQuantos Dólares gostaria de remover?\u001b[m");
+		linha();
 	}
 
 	public void case5() {
-		System.out.println("\u001b[1m------PROGRAMA--ENCERRADO------\u001b[m");
+		System.out.println("\u001b[1m----------PROGRAMA--ENCERRADO----------\u001b[m");
 	}
 
 	public void caseDefault() {
-		System.out.println("\u001b[1mOpção inválida. Digite novamente.\u001b[m");
+		linha();
+		System.out.println("\u001b[1mOpção inválida.\u001b[m");
+		linha();
 	}
-	
-	public void exception() {
-		System.out.println("\u001b[1mValor inválido. Digite novamente.\u001b[m");
-	}
-	
+
 	public void linha() {
-		System.out.println("-------------------------------");
+		System.out.println("---------------------------------------");
 	}
 }
