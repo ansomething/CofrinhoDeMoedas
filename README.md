@@ -12,8 +12,10 @@ Esse é um projeto feito para a disciplina de Programação Orientada a Objetos 
 
 ## 🚀 Instalação
 
-1 - Faça o download ou clone esse repositório;
-2 - Abra os arquivos no seu editor de preferência.
+<ol>
+    <li>Faça o download ou clone esse repositório;</li>
+    <li>Abra os arquivos no seu editor de preferência.</li>
+</ol>
 
 ## 📝 Licença
 
