@@ -15,6 +15,9 @@ Esse é um projeto feito para a disciplina de Programação Orientada a Objetos 
 <ol>
     <li>Faça o download ou clone esse repositório;</li>
     <li>Abra os arquivos no seu editor de preferência.</li>
+        <ul>
+            <li>Recomendado: Eclipse</li>
+        </ul>
 </ol>
 
 ## 📝 Licença
